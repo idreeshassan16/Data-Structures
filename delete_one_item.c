@@ -1,3 +1,4 @@
+//deletes only one given item
 #include<stdio.h>
 int main()
 {
@@ -16,6 +17,7 @@ int main()
     {
         if (A[i]== item)
             x = i;
+        break;
     }
 
     for (int i = x; i < n; i++)
