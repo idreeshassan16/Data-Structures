@@ -16,10 +16,9 @@ int main()
     {
         if(A[i]==item)
         {
-            x = i;
-            for (int i = x; i < n-1;i++)
+            for (int j = i; j < n-1;j++)
             {
-                A[i]=A[i+1];
+                A[j]=A[j+1];
             }
             n--;
             i--;
