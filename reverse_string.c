@@ -4,7 +4,7 @@ int main()
     char name[100];
 
     printf("Enter the name: ");
-    scanf("%99s",name);                   // Limiting input to 99 characters to prevent overflow
+    scanf("%s",name);                   // Limiting input to 99 characters to prevent overflow
 
     int i = 0,len=0;
     while(name[i] != '\0')
